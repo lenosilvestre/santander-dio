@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 60%; */
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 48rem;
+}
+
+
+.instagram-continue{
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+    max-width: 350px;
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+.group:nth-child(1){
+    height: 394px;
+    min-height: 19rem;
+    padding-top: 45px;
+    padding-bottom: 45px
+    
+}
+.instagram-logo{
+   
+   width: 175px;
+   height: 51px;
+}
+#outro-elemento p{
+    color: #dbdbdb;
+    display: flex;
+}
+
+#outro-elemento p::before {
+    content: "";
+    flex-shrink: 1;
+    height: 1px;
+    width: 107.52px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #dbdbdb;
+    position: relative;
+    top: 0.45em;
+}
+#outro-elemento p::after {
+    content: "";
+    flex-shrink: 1;
+    height: 1px;
+    width: 107.52px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #dbdbdb;
+    position: relative;
+    top: 0.45em;
+}
+
+
+/**/
+
+.get-the-app{
+    text-align: center;
+    width: 100%;
+}
+.get-the-app p{
+    margin-bottom: 15px;
+}
+.download{
+    flex-direction: row;
+}
+.apps img{
+    height: 40px;
+
+}
