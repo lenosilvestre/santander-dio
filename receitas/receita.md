@@ -1,2 +1,0 @@
-#feijão
-**arroz_
